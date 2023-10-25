@@ -292,6 +292,15 @@ a {
     width: 100%;
 }
 
+.popular .item .rate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.popular .item .rate img {
+    margin-right: 6px;
+}
+
 .popular .desc {
     color: #5F5B53;
     font-family: Poppins;
@@ -318,6 +327,7 @@ a {
 }
 
 .popular .title h3 {
+    margin-top: 16px;
     color: #171100;
     font-family: Poppins;
     font-size: 1.8rem;
