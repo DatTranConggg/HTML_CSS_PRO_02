@@ -94,6 +94,7 @@ a {
 /* HERO  */
 .hero {
     padding-top: 56px;
+    padding-bottom: 65px;
     background-color: #FFFCF4;
 }
 
@@ -204,9 +205,39 @@ a {
     background-color: #FFFCF4;
     margin-left: 28px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.watch-video span {
+    color: #171100;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.67; /* 166.667% */
+}
+
+.watch-video span:hover {
+    color: #171100;
+    text-shadow: 1px 0 0 currentColor;
+    position: relative;
 }
 
 .hero .watch-video .icon {
     width: 40px;
     height: 40px;
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    margin-right: 14px;
+}
+.content-block .desc strong {
+    color: #171100;
+    font-family: Sen;
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 1.23; /* 122.727% */
+}
+.content-block .desc strong + strong {
+    margin-left: 28px;
 }
