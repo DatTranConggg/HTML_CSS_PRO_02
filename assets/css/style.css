@@ -241,3 +241,124 @@ a {
 .content-block .desc strong + strong {
     margin-left: 28px;
 }
+
+/* POPULAR  */
+
+.popular {
+    padding: 200px 0;
+}
+.popular .title {
+    color: #171100;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.26; /* 126.316% */
+    letter-spacing: -0.76px;
+}
+.popular .sliders {
+    display: flex;
+    justify-content: space-between;
+}
+.popular .sliders img {
+    margin-top: -100px;
+}
+
+.popular .sliders .desc {
+    color: #5F5B53;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-bottom: 55px;
+}
+.popular .list {
+    display: flex;
+    gap: 30px;
+}
+
+.popular .item {
+    padding: 22px;
+    width: 370px;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+}
+
+.popular .item .img {
+    height: 278px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.popular .desc {
+    color: #5F5B53;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.67; /* 166.667% */
+    width: 458px;
+}
+
+.popular .item .desc {
+    color: #5F5B53;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 185.714% */
+    width: 326px;
+}
+.popular .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popular .title h3 {
+    color: #171100;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 166.667% */
+}
+
+.popular .title span {
+    color: #FEA31B;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+
+.popular .booking {
+    display: flex;
+    margin-top: 22px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular .booking strong {
+    color: #171100;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 166.667% */
+}
+
+.popular .booking button {
+    border-radius: 25px;
+    background: #FFB900;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+.popular .booking button:hover {
+    background-color: #171100;
+}
