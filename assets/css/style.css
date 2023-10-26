@@ -372,3 +372,78 @@ a {
 .popular .booking button:hover {
     background-color: #171100;
 }
+
+/* QUOTE  */
+.quote {
+    background-color: #2E2100;
+    color: #FFF;
+    height: 380px;
+    padding: 96px 0;
+}
+
+.quote .main-content {
+    display: flex;
+}
+
+.quote .left {
+    width: 40%;
+}
+
+.quote .left .author {
+    margin-top: 18px;
+    margin-bottom: 6px;
+    color: #F7F7F7;
+    font-family: Sen;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px; /* 141.667% */
+}
+
+.quote .left .position {
+    color: #BFBCB2;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 28px;
+}
+
+.quote .left .three-dot span {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: #634700;
+    border-radius: 50%;
+}
+
+.quote .left .three-dot span:nth-child(2) {
+    background-color: #FFB900;
+}
+
+.quote .right {
+    width: 60%;
+    position: relative;
+}
+
+.quote .double-quote {
+    position: absolute;
+    top: -16px;
+    left: -32px;
+}
+
+.quote .right .desc {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2.4rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.54; /* 153.846% */
+}
+
+.quote .img {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 50%;
+}
