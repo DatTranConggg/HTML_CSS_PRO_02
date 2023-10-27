@@ -410,7 +410,7 @@ a {
     margin-bottom: 28px;
 }
 
-.quote .left .three-dot span {
+.three-dot span {
     display: inline-block;
     width: 6px;
     height: 6px;
@@ -418,7 +418,7 @@ a {
     border-radius: 50%;
 }
 
-.quote .left .three-dot span:nth-child(2) {
+.three-dot span:nth-child(2) {
     background-color: #FFB900;
 }
 
@@ -512,6 +512,11 @@ a {
     border: none;
 }
 
+.sign-up .right .btn:hover {
+    cursor: pointer;
+    background-color: #171100;
+}
+
 /* JOIN NOW  */
 .join-now {
     padding-bottom: 200px;
@@ -556,4 +561,113 @@ a {
     font-weight: 600;
     border-radius: 26px;
     background-color: #FFB900;
+}
+
+.join-now .left button:hover {
+    cursor: pointer;
+    background-color: #171100;
+}
+
+/* OUR BLOG  */
+.our-blog {
+    background-color: #FFFCF4;
+    padding: 96px 0;
+}
+
+.our-blog .header h2 {
+    color: #130606;
+    text-align: center;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 48px; /* 126.316% */
+    letter-spacing: -0.76px;
+}
+
+.our-blog .header p {
+    margin: 0 auto;
+    color: #696262;
+    text-align: center;
+    font-size: 1.6rem;
+    width: 448px;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+}
+
+.our-blog .images {
+    margin-top: 55px;
+    display: flex;
+    gap: 20px;
+}
+
+
+.our-blog .date-block {
+    padding-left: 20px;
+    /* padding-bottom: 20px; */
+}
+
+.our-blog .item {
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+}
+
+.our-blog .item .date {
+    width: 160px;
+    padding-top: 20px;
+    display: inline-block;
+    color: #5F5B53;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 185.714% */
+    border-bottom: 1px solid #E2DFDA;
+}
+
+.our-blog .item .question {
+    padding: 0 20px;
+    color: #171100;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    width: 330px;
+    line-height: 28px; /* 175% */
+    margin-bottom: 12px;
+}
+
+.our-blog .item .btn {
+    margin-left: 20px;
+    border: none;
+    color: #FFF;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 12px 21px;
+    border-radius: 25px;
+    background-color: #FFB900;
+    margin-bottom: 28px;
+}
+
+.our-blog .item .btn:hover {
+    cursor: pointer;
+    background-color: #171100;
+}
+
+.our-blog .item .img {
+    width: 370px;
+    height: 250px;
+}
+
+.our-blog .dot {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: #FFB900;
+    border-radius: 50%;
+}
+
+.our-blog .three-dot {
+    text-align: center;
+    margin-top: 28px;
 }
